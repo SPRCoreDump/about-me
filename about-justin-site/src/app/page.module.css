@@ -227,3 +227,13 @@
     transform: rotate(0deg);
   }
 }
+
+#handDrawnButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#handDrawnButton image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}

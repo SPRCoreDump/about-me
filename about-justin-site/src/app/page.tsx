@@ -1,15 +1,20 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import React, { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import './handdrawn.css'; // Import the CSS file for styling
+import HandDrawnMonitor from '@/components/HandDrawnMonitor';
 
 export default function Home() {
   return (
     <main className={styles.main}>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.x/gsap.min.js"></script>
       <div className={styles.description}>
         {/* <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p> */}
-        {/* <div>
+        <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -17,7 +22,7 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="/vercel.svg"
+              src="/public/test.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
@@ -25,7 +30,7 @@ export default function Home() {
               priority
             />
           </a>
-        </div> */}
+        </div>
       </div>
 
       <div className={styles.center}>
@@ -38,6 +43,9 @@ export default function Home() {
           priority
         /> */}
         HEY!!!
+        <HandDrawnMonitor>
+            hi
+        </HandDrawnMonitor>
       </div>
 
       <div className={styles.grid}>
