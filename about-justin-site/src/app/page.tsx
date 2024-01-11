@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import React, { useRef, useEffect } from 'react';
@@ -8,7 +9,6 @@ import HandDrawnMonitor from '@/components/HandDrawnMonitor';
 export default function Home() {
   return (
     <main className={styles.main}>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.x/gsap.min.js"></script>
       <div className={styles.description}>
         {/* <p>
           Get started by editing&nbsp;
@@ -21,14 +21,14 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{' '}
-            <Image
-              src="/public/test.svg"
+            {/* <Image
+              src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
               height={24}
               priority
-            />
+            /> */}
           </a>
         </div>
       </div>
