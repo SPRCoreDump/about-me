@@ -1,0 +1,12 @@
+.hand-drawn-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding as needed */
+    /* Add more styles as needed */
+}
+
+.hand-drawn-button image {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+}
